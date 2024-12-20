@@ -12,7 +12,7 @@ CORS(app, origins=["http://localhost:3000"])
 
 
 # Google Cloud Storage configuration
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/meiramsopy/Desktop/cloud-final/backend/service-account-key.json" 
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/meiramsopy/Desktop/cloud-final/backend/service-account-key.json"  #I deleted service account, because wasn't able to push source code to github and for privacy purpose also <3
 BUCKET_NAME = "inventory-app-bucket"
 
 # PostgreSQL configuration for Google Cloud SQL
